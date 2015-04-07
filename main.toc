@@ -1,0 +1,12 @@
+\beamer@endinputifotherversion {3.33pt}
+\select@language {english}
+\beamer@sectionintoc {2}{Background}{4}{0}{1}
+\beamer@subsectionintoc {2}{1}{History}{4}{0}{1}
+\beamer@subsectionintoc {2}{2}{The vi Utility}{9}{0}{1}
+\beamer@sectionintoc {3}{How to vi}{12}{0}{2}
+\beamer@subsectionintoc {3}{1}{General Principles}{12}{0}{2}
+\beamer@subsectionintoc {3}{2}{Command Structure}{14}{0}{2}
+\beamer@subsectionintoc {3}{3}{Registers}{22}{0}{2}
+\beamer@sectionintoc {4}{Modern vi}{25}{0}{3}
+\beamer@subsectionintoc {4}{1}{Vim}{25}{0}{3}
+\beamer@subsectionintoc {4}{2}{Comparison to Other Editors}{28}{0}{3}
