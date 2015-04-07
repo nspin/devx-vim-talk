@@ -70,7 +70,37 @@
 
         \subsection{General Principles}
 
-            \begin{frame}{}
+            \begin{frame}{wut is editor}
+                \pause
+                At the very least, it allows a user to
+                \begin{itemize}
+                    \pause
+                    \item Load state of system into internal state
+                    \pause
+                    \item Modify internal state
+                    \begin{itemize}
+                        \pause
+                        \item Buffers
+                        \pause
+                        \begin{itemize}
+                            \item Contents
+                            \item Position of cursor
+                            \item Positions of other markers
+                        \end{itemize}
+                        \pause
+                        \item Registers
+                        \pause
+                        \item Layout of buffers
+                    \end{itemize}
+                    \pause
+                    \item Apply changes in internal state to system
+                \end{itemize}
+            \end{frame}
+
+            \begin{frame}{A Clever Approach}
+                Most editors: Key combinations
+                \pause
+                vi: Modal editing/key sequences
             \end{frame}
 
         \subsection{Command Structure}
