@@ -98,7 +98,7 @@
             \end{frame}
 
             \begin{frame}{A Clever Approach}
-                Most editors: Key combinations
+                Most editors: Key combinations \\~\\
                 \pause
                 vi: Modal editing/key sequences
             \end{frame}
@@ -106,10 +106,19 @@
         \subsection{Command Structure}
 
             \begin{frame}{Nouns}
-            \end{frame}
-
-            \begin{frame}{Adjectives}
-            \pause
+                By themselves, they are considered 'motions'
+                \begin{table}
+                    \centering
+                    \begin{tabular}{r|p{7cm}}
+                        Left/down/up/right & \texttt{h/j/k/l} \\[.3cm]
+                        Beginning of next word/Word & \texttt{w/W} \\[.3cm]
+                        Beginning of last word/Word & \texttt{b/B} \\[.3cm]
+                        Next/last occurence of \texttt{x} & \texttt{f/Fx} \\[.3cm]
+                        Beginning/end of line & \texttt{\textasciicircum /\$ } \\[.3cm]
+                        Next/last occurence of current word & \texttt{\#/*} \\
+                    \end{tabular}
+                \end{table}
+                Numbers are adjectives
             \end{frame}
 
             \begin{frame}{Verbs}
@@ -123,15 +132,27 @@
 
             \begin{frame}{The Rest}
                 Scrolling \\
-                ZZ, etc
+                ZZ \\
+                . \\
+                etc
             \end{frame}
 
         \subsection{Registers}
 
             \begin{frame}{Registers}
+                Named variables that store strings \\~\\
+                Cut/copy to them \\
+                Record them \\~\\
+                Paste from them \\
+                Play them
             \end{frame}
 
             \begin{frame}{The Art of Macros}
+                Stay abstract. \pause Practice. \pause That is all.
+            \end{frame}
+
+            \begin{frame}{vi Golf}
+                \texttt{i1<esc>qqyyp<c-a>q98@qqqcc Buzz<esc>5-q19@q2-qqciwFizz<esc>3+0q32@q}
             \end{frame}
 
     \section{Modern vi}
@@ -139,9 +160,25 @@
         \subsection{Vim}
 
             \begin{frame}{vi Improved}
+                Ubiquitous \\~\\
+                Compatability mode \\~\\
+                Improvements
+                \begin{itemize}
+                    \item Aesthetics
+                    \item Much more custmizability (including aesthetics...)
+                    \item GUI mode
+                \end{itemize}
             \end{frame}
 
             \begin{frame}{VimScript}
+                There are TONS of plugins \\~\\
+                Examples
+                \begin{itemize}
+                    \item Commentary
+                    \item Tablizarize
+                    \item Nerdtree
+                    \item Ctrl-P
+                \end{itemize}
             \end{frame}
 
         \subsection{Comparison to Other Editors}
@@ -153,14 +190,33 @@
             \end{frame}
 
             \begin{frame}{IDE's}
+                Pro: stay in terminal (seamlessly integrates with tmux, screen, etc) \\~\\
+                \pause
+                Con: learning curve
             \end{frame}
 
     \section*{Conclusion}
 
             \begin{frame}{Conclusion}
+                \begin{center}
+                \includegraphics[width = 9.5cm, height = 7cm]{vi_vim_cheat_sheet.png}
+                \end{center}
             \end{frame}
 
-            \begin{frame}{Thank You}
+
+            \begin{frame}{Further Learning}
+                How to continue learning
+                \begin{itemize}
+                    \item Cheatsheets (a few commands at a time)
+                    \item VimDoc
+                    \item VimCasts
+                    \pause
+                    \item Me \pause (I love talking about vim)
+                \end{itemize}
+            \end{frame}
+
+            \begin{frame}{Questions?}
+                \center{?}
             \end{frame}
 
 \end{document}
